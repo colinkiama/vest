@@ -1,0 +1,48 @@
+repo_name: colinkiama/vest
+report_id: c83a99bd10d40767679e33feba62e7fd
+repo_type: Public
+timestamp: '2023-11-12T07:10:42+00:00'
+requested_by: jorchube
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Vala
+  description: An object-oriented programming language
+  website_url: https://wiki.gnome.org/Projects/Vala
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4409/default_afecc12361f844da33073465e0ab7b27b1715f16.jpg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Jordi Chulia
+  last_updated_on: 2021-02-04 19:18:31.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
